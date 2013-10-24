@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Slide Titles -->
+  <string-array name="slide_titles">
+    <item>@string/hotels_title</item>
+    <item>@string/outlets_title</item>
+    <item>@string/favorites_title</item>
+    <item>@string/members_title</item>
+    <item>@string/offers_title</item>
+    <item>@string/rooms_title</item>
+    <item>@string/benefits_title</item>
+  </string-array>
+
+  <!-- Course Titles Shorted Versions -->
+  <string-array name="slide_titles_short">
+    <item>@string/hotels_title_short</item>
+    <item>@string/outlets_title_short</item>
+    <item>@string/favorites_title_short</item>
+    <item>@string/members_title_short</item>
+    <item>@string/offers_title_short</item>
+    <item>@string/rooms_title_short</item>
+    <item>@string/benefits_title_short</item>
+  </string-array>
+
+  <!-- Course Descriptions -->
+  <string-array name="slide_descriptions">
+    <item>@string/hotels_description</item>
+    <item>@string/outlets_description</item>
+    <item>@string/favorites_description</item>
+    <item>@string/members_description</item>
+    <item>@string/offers_description</item>
+    <item>@string/rooms_description</item>
+    <item>@string/benefits_description</item>
+  </string-array>
+
+</resources>

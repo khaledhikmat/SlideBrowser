@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Slide titles and descriptions -->
+  <string name="hotels_title">Our resort hotels are of great value!</string>
+  <string name="hotels_title_short">Hotels</string>
+  <string name="hotels_description">Miticulously selected and managed, our hotels are the best in their class from all perspectives.</string>
+  <string name="outlets_title">Our resort outlets offer the best in food quality and variety</string>
+  <string name="outlets_title_short">Outlets</string>
+  <string name="outlets_description">Our resort outlets offer the best in food quality and variety.</string>
+  <string name="favorites_title">Pin your favorite desctinations and dining areas</string>
+  <string name="favorites_title_short">Favorites</string>
+  <string name="favorites_description">Pin your favorite desctinations and dining areas.</string>
+  <string name="members_title">Enjoy a great deal of benefits!</string>
+  <string name="members_title_short">Members</string>
+  <string name="members_description">Our program benefits far exceeds all others! What matters is you.</string>
+  <string name="offers_title">Unique and relevant offers</string>
+  <string name="offers_title_short">Offers</string>
+  <string name="offers_description">We will not big you down with useless offers....only relevant and meaningful offers will be delivered to you.</string>
+  <string name="rooms_title">A shining example of comfort and cleanliness</string>
+  <string name="rooms_title_short">Rooms</string>
+  <string name="rooms_description">Our rooms are how rooms should really be! We offer the best in luxuary, entertainment and design.</string>
+  <string name="benefits_title">Program Genefits</string>
+  <string name="benefits_title_short">Benefits</string>
+  <string name="benefits_description">You will feel like a king when you indulge in our great program benefits.</string>
+</resources>

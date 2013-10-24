@@ -7,6 +7,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+/*
+ * The code idea and structure are taken from Mr. Jim Wilson's Pluralsight Course.
+ */
 public class SlidePageAdapter extends FragmentPagerAdapter {
 	String[] mSlideTitles;
 	String[] mSlideTitlesShort;
@@ -16,9 +19,9 @@ public class SlidePageAdapter extends FragmentPagerAdapter {
 		super(fm);
 		
 	    Resources resources = context.getResources();
-	    mSlideTitles = resources.getStringArray(R.array.course_titles);
-	    mSlideTitlesShort = resources.getStringArray(R.array.course_titles_short);
-	    mSlideDescriptions = resources.getStringArray(R.array.course_descriptions);
+	    mSlideTitles = resources.getStringArray(R.array.slide_titles);
+	    mSlideTitlesShort = resources.getStringArray(R.array.slide_titles_short);
+	    mSlideDescriptions = resources.getStringArray(R.array.slide_descriptions);
 	}
 
 	@Override
@@ -36,12 +39,12 @@ public class SlidePageAdapter extends FragmentPagerAdapter {
 
 	@Override
 	public int getCount() {
-		return mCourseTitlesShort.length;
+		return mSlideTitlesShort.length;
 	}
 	
 	@Override
 	public CharSequence getPageTitle(int position) {
-		return mCourseTitlesShort[position];
+		return mSlideTitlesShort[position];
 	}
 
 	private int translateTopCardIndex(int i) {

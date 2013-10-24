@@ -1,5 +1,7 @@
 package com.khaledhikmat.SlidebrowserExample;
 
+import android.animation.AnimatorSet;
+import android.animation.ObjectAnimator;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -9,6 +11,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+/*
+ * The code idea and structure are taken from Mr. Jim Wilson's Pluralsight Course.
+ */
 public class SlideFragment extends Fragment {
 	private final static String LOG_TAG = "Slide Fragment";
 	
@@ -21,7 +26,7 @@ public class SlideFragment extends Fragment {
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		View theView = inflater.inflate(R.layout.fragment_course_info,  container, false);
+		View theView = inflater.inflate(R.layout.fragment_slide_info,  container, false);
 		
 		Bundle arguments = getArguments();
 	    if (arguments != null) {
@@ -53,7 +58,6 @@ public class SlideFragment extends Fragment {
 			
 			@Override
 			public void onClick(View arg0) {
-				// TODO Auto-generated method stub
 				Log.d(LOG_TAG, "Image clicked!!");	
 				ISlideFragmentManager manager = (ISlideFragmentManager) getActivity();
 				if (manager != null) {
