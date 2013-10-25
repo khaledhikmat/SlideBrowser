@@ -1,0 +1,6 @@
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc
+ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.ui.workbench.texteditor.blockSelectionModeFont
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.editors.textfont=1|Courier New|14.25|0|WINDOWS|1|-19|0|0|0|400|0|0|0|0|3|2|1|49|Courier New;
+org.eclipse.ui.workbench.texteditor.blockSelectionModeFont=1|Courier New|14.25|0|WINDOWS|1|-19|0|0|0|400|0|0|0|0|3|2|1|49|Courier New;
+org.eclipse.wst.sse.ui.textfont=1|Courier New|14.25|0|WINDOWS|1|-19|0|0|0|400|0|0|0|0|3|2|1|49|Courier New;

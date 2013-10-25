@@ -28,10 +28,10 @@ target
 local.properties
  
 # Eclipse project files
-.classpath
-.project
-.metadata
-.settings
+#.classpath
+#.project
+#.metadata
+#.settings
  
 # IntelliJ files
 .idea
