@@ -1,3 +1,0 @@
-INDEX VERSION 1.126+D:\Work\SkyDrive\SourceCode\androidsolutions\SlideBrowser\.metadata\.plugins\org.eclipse.jdt.core
-443665928.index
-3476527431.index

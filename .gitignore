@@ -4,7 +4,9 @@
 # built application files
 *.apk
 *.ap_
-*.jar
+
+# exclude the .JAR files because I want to be able to check in the *.jar files (as in libs)
+#*.jar
  
 # lint folder
 lint
@@ -30,7 +32,7 @@ local.properties
 # Eclipse project files
 #.classpath
 #.project
-#.metadata
+.metadata
 #.settings
  
 # IntelliJ files
