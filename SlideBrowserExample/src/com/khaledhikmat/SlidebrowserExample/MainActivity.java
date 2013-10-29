@@ -55,7 +55,7 @@ public class MainActivity extends FragmentActivity implements ISlideFragmentMana
 		});
 		
 		// Doing so slides the main viewer 300f over 7 seconds
-		mViewPager.animate().translationX(300f).setDuration(7000);
+		//mViewPager.animate().translationX(300f).setDuration(7000);
 	}
 
 	@Override

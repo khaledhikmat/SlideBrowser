@@ -32,9 +32,9 @@ public class SlidePageAdapter extends FragmentPagerAdapter {
 	    arguments.putInt(SlideFragment.TOP_CARD, translateTopCardIndex(i));
 	    arguments.putInt(SlideFragment.SLIDE_TYPE_LOGO, R.drawable.ps_android_logo);
 
-	    SlideFragment courseFragment = new SlideFragment();
-	    courseFragment.setArguments(arguments);
-		return courseFragment;
+	    SlideFragment slideFragment = new SlideFragment();
+	    slideFragment.setArguments(arguments);
+		return slideFragment;
 	}
 
 	@Override
